@@ -32,7 +32,22 @@ body {
     color: #000000;
 }
 
-/* navmenu coding from here  */
+.StructureHading {
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-top: 40px;
+}
+
+.StructurePragraph {
+    font-size: 16px;
+    color: #627382;
+    margin-top: 16px;
+    margin-bottom: 30px;
+
+}
+
+/* navbar coding from here  */
 #navBar {
     display: flex;
     justify-content: space-around;
@@ -64,6 +79,7 @@ body {
     width: 139px;
     height: auto;
 }
+
 
 /* Hero section coding from here  */
 .button-container {
@@ -157,4 +173,64 @@ body {
     color: #ffffff;
     margin-top: 16px;
 
+}
+
+/* main body started from here  */
+
+.firstStructure {
+    max-width: 1360px;
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.StructureCard {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.cardinfo {
+    width: 322px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px 0 #00000013;
+}
+
+.cardinfo:hover {
+    box-shadow: 0 8px 12px 0 #1b1a1a25;
+    transition: 0.3s;
+}
+
+
+.round {
+    width: 64px;
+    height: 64px;
+    background-color: #F95555;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 4px 0 #00000025;
+}
+
+.cardinfo h3 {
+    font-size: 24px;
+    font-weight: semi-bold;
+    color: #001931;
+}
+
+.cardinfo p {
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 20px;
 }
