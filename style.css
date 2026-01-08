@@ -138,7 +138,7 @@ body {
 
 .heroSection {
 
-    background-image: url(./medias/hero-bg.png);
+    background-image:linear-gradient(to bottom, #00000000 0%, #00000071 100%), url(./medias/hero-bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -146,6 +146,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .heroContent {
