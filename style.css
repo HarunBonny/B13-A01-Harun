@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+/* Shared styles for all elements  */
+.btn {
+    background-color: #469165;
+    border-radius: 4px;
+    box-shadow: 0 4px 4px 0 #00000025;
+    border: none;
+    font-size: 16px;
+    color: white;
+    font-weight: semi-bold;
+    padding: 12px 24px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #6fd39a;
+    transition: 0.3s;
+    color: #000000;
+}
+
+/* navmenu coding from here  */
+#navBar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#navBar ul {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+
+#navBar ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: medium;
+    font-size: 16px;
+}
+
+#navBar ul li a:hover {
+    color: #469165;
+    font-weight: bold;
+    transition: 0.3s;
+
+}
+
+#navBar .navLogo img {
+    width: 139px;
+    height: auto;
+}
