@@ -20,6 +20,10 @@ body {
     font-weight: semi-bold;
     padding: 12px 24px;
     cursor: pointer;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
 }
 
 .btn:hover {
@@ -59,4 +63,98 @@ body {
 #navBar .navLogo img {
     width: 139px;
     height: auto;
+}
+
+/* Hero section coding from here  */
+.button-container {
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+    justify-content: center;
+}
+
+.btn-outline {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+
+/* Badge container */
+.badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 18px;
+    background: #ffffff;
+    border-radius: 999px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #3aa76d;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 4px 4px 0 #00000025;
+    margin-bottom: 10px;
+}
+
+.badge:hover {
+    font-size: 17px;
+    transition: 0.3s;
+
+}
+
+/* Green dot icon */
+.dot {
+    width: 12px;
+    height: 12px;
+    background-color: #3aa76d;
+    border-radius: 50%;
+    position: relative;
+}
+
+/* Glow effect */
+.dot::after {
+    content: "";
+    position: absolute;
+    inset: -4px;
+    background: rgba(58, 167, 109, 0.3);
+    border-radius: 50%;
+}
+
+.heroSection {
+
+    background-image: url(./medias/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 674px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroContent {
+    max-width: 1360px;
+    width: 85%;
+    margin: auto;
+    text-align: center;
+
+}
+
+.heroContent h1 {
+    font-size: 72px;
+    font-weight: bold;
+    color: #ffffff;
+    box-shadow: 0 4px 4px 0 #00000025;
+
+}
+
+.heroContent h1 span {
+    color: #3aa76d;
+}
+
+.heroContent p {
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 16px;
+
 }
