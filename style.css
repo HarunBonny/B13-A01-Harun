@@ -282,3 +282,50 @@ body {
     background-color: #99ceb22f;
     color: #ffffff;
 }
+
+footer {
+    border: 2px solid #E1E4E8;
+    background-color: #001931;
+    padding: 40px 0;
+    color: #ffffff;
+    text-align: center;
+    height: 348px;
+    padding: 120px 120px 20px 120px;
+}
+
+.footerUpSection {
+    max-width: 1360px;
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.socialLinks {
+    display: flex;
+    gap: 20px;
+}
+
+.socialSection p {
+    font-size: 20px;
+    font-weight: medium;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.socialLinks a {
+    text-decoration: none;
+}
+
+.copywriteSection {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #ffffff;
+}
+hr {
+    border: none;
+    border-top: 1px solid #E1E4E8;
+    opacity: 0.2;
+}
